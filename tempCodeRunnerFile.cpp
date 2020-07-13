@@ -1,0 +1,4 @@
+
+cin>> NombreArticulo;
+
+    }
