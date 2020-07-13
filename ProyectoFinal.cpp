@@ -22,7 +22,7 @@ void LeerDatos(int cantProd, costoPorArticulo Listadeproductos[])//Funcion donde
     for (int i = 0; i < cantProd; i++)                           // (literal b)
     {
         cout << "Ingrese el nombre del articulo (sin espacios)" << i + 1 << ":" << endl;
-        cin >> Listadeproductos[i].nombreArticul;// se ingresa el nombre del producto
+        cin >> Listadeproductos[i].nombreArticul,20;// se ingresa el nombre del producto
         cout << "Ingrese la cantidad de unidades por el articulo " << i + 1 << ":" << endl;
         cin >> Listadeproductos[i].cantidad;//se ingresan la cantidad de unidades por articulo
         cout << "Ingrese el precio unitario por el articulo " 
